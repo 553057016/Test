@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        tv = (TextView)findViewById(R.id.tv);
+        tv = (TextView)findViewById(R.id.tv);
 
         CrashReport.initCrashReport(getApplicationContext(), "df40effa78", true);
         init();
